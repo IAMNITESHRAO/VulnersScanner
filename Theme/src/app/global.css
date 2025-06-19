@@ -1,0 +1,28 @@
+html {
+    overflow-y: scroll;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+    width: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+    border-radius: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #5d87ff;
+    border-radius: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #5d87ff;
+}
+
+/* CSS FOR REPORT CARD */
+.MuiCardContent-root{
+    padding: 0 5px 5px 5px;
+}
+.mui-1md03e7-MuiCardContent-root:last-child {
+    padding-bottom: 0;
+}
